@@ -1,0 +1,22 @@
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:brown;
+    text-align: center;
+}
+
+#bullet-points {
+    color: plum;
+    font-size: x-large;
+}
+
+.intro-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    font-size: 250px;
+    margin-bottom: 0px;
+}
+
+.suspicious-link {
+    color:red;
+    padding: 32px;
+}
