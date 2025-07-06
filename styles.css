@@ -4,15 +4,25 @@ p {
     text-align: center;
 }
 
+html {
+    background-image: linear-gradient(to right,lightblue, purple);
+}
+
 #bullet-points {
-    color: plum;
+    color: maroon;
     font-size: x-large;
+}
+
+.images {
+    rotate: 45deg;
+    width: 250px;
+    height: 250px;
 }
 
 .intro-text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: blue;
-    font-size: 250px;
+    color:darkmagenta;
+    font-size: 150px;
     margin-bottom: 0px;
 }
 
