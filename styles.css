@@ -5,6 +5,25 @@ html {
 button {
     background-color: #bdbdbd;
 }
+
+img {
+    height: 250px;
+}
+
+.img-preview {
+    height: 80px;
+    width: 320px;
+    object-fit: cover;
+}
+
+.about-card-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.about-card {
+    width: 320px;
+}
 /* p {
     color:brown;
     text-align: center;
