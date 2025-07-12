@@ -1,13 +1,54 @@
 html {
+    box-sizing: 0;
+    margin: 0;
+    /* padding: 0 2rem; */
     background-color: #bdbdbd;
+    font-family: monospace;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px;
+    background-color: blue;
+    color: white;
+}
+
+.body-pad {
+    padding: 1.25rem 2rem;
 }
 
 button {
     background-color: #bdbdbd;
+    font-family: monospace;
+    color: blue;
 }
 
 img {
     height: 250px;
+}
+
+.hero-text {
+    text-align: center;
+    padding: 8rem 12rem;
+}
+
+.special-text {
+    color: blue;
 }
 
 .img-preview {
@@ -19,6 +60,8 @@ img {
 .about-card-container {
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .about-card {
@@ -38,6 +81,15 @@ img {
     justify-content: center;
 }
 
+.dir-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.dir-item {
+    max-width: 380px;
+}
 /* p {
     color:brown;
     text-align: center;

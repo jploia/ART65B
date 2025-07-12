@@ -7,45 +7,88 @@
     <body>
         <!-- Navbar -->
         <nav>
-            <a>Home AKA Splash</a>
-            <button onClick="location.href='index.html'">Splash</button>
-            <button onClick="location.href='directory.html'">Directory</button>
-            <button onclick="location.href='portfolio.html'">Portfolio</button>
-            <button onClick="location.href='about.html'">About</button>
+            <a>Julia's Portfolio - Version 2.011</a>
+            <div>
+                <button onClick="location.href='index.html'">Splash</button>
+                <button onClick="location.href='directory.html'">Directory</button>
+                <button onclick="location.href='portfolio.html'">Portfolio</button>
+                <button onClick="location.href='about.html'">About</button>
+            </div>
         </nav>
         <!-- End Navbar -->
+        <div class="body-pad">
+            <h1>About Page</h1>
 
-        <h1>About Page</h1>
+            <h2>A Little About Me! ٩(ˊᗜˋ*)و</h2>
+            <p>Hello there! As you may have read on my splash page, I am currently a third year Software Engineering and
+                Education student at the University of California, Irvine. I have experimented a lot with UI/UX design, digital
+                art, and creative projects in the past. I value the arts because of their capabilities of showcasing emotion.
+            </p>
 
-        <h2>A Little About Me! ٩(ˊᗜˋ*)و</h2>
-        <p>Hello there! As you may have read on my splash page, I am currently a third year Software Engineering and
-            Education student at the University of California, Irvine. I have experimented a lot with UI/UX design, digital
-            art, and creative projects in the past. I value the arts because of their capabilities of showcasing emotion.
-        </p>
-
-        <div class="about-card-container">
-            <div id="shindler" class="about-card">
-                <img src="images/birthday.gif" alt="Gif with Professor Michael Shindler as a crumple tree" class="img-preview"/>
-                <h3>Professor Shindler's Birthday Graphic</h3>
-                <p>Michael Shindler is an Associate Professor of Teaching at UCI who I happen to also 
-                    be friends with and do research with. For his birthday, I collaborated with my friend
-                    Rose in order to make him a special graphic. Utilizing Canva, we developed a creative graphic
-                    that incorporated all of his favorite things, particularly crumple trees. The graphic features
-                    each of the tree nodes as a picture of his face.
-                </p>
-            </div>
-            <div id="bithacks" class="about-card">
-                <img src="images/bithacks-website.png" class="img-preview"/>
-                <a href="https://www.ucibithacks.com/">
-                    <h3>BitHacks' Web Developer & Designer</h3>
-                </a>
-                <p>BitHacks was UCI's first embedded systems hackathon. I had the opportunity to work as a web Developer
-                    and sole designer for the website. I worked closely with the Graphics and Web Development team to 
-                    devise a thematic design, assets, and branding representative of the event’s mission. I utilized Figma
-                    to create the low, mid, and high-fidelity designs. I leveraged Next.js and TypeScript, 
-                    Tailwind CSS, and Framer Motion to creatively display significant event information, graphics, 
-                    and integrate mobile responsiveness for a captivating user experience.
-                </p>
+            <div class="about-card-container">
+                <div class="about-card">
+                    <img src="images/birthday.gif" alt="Gif with Professor Michael Shindler as a crumple tree" class="img-preview"/>
+                    <h3>Professor Shindler's Birthday Graphic</h3>
+                    <p>Michael Shindler is an Associate Professor of Teaching at UCI who I happen to also 
+                        be friends with and do research with. For his birthday, I collaborated with my friend
+                        Rose in order to make him a special graphic. Utilizing Canva, we developed a creative graphic
+                        that incorporated all of his favorite things, particularly crumple trees. The graphic features
+                        each of the tree nodes as a picture of his face. I learned how to maintain good image and text
+                        readability on busy backgrounds and the importance of composition.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <img src="images/bithacks-website.png" class="img-preview"/>
+                    <a href="https://www.ucibithacks.com/">
+                        <h3>BitHacks' Web Developer & Designer</h3>
+                    </a>
+                    <p>BitHacks was UCI's first embedded systems hackathon. I had the opportunity to work as a web Developer
+                        and sole designer for the website. I worked closely with the Graphics and Web Development team to 
+                        devise a thematic design, assets, and branding representative of the event’s mission. I utilized Figma
+                        to create the low, mid, and high-fidelity designs. I leveraged Next.js and TypeScript, 
+                        Tailwind CSS, and Framer Motion to creatively display significant event information, graphics, 
+                        and integrate mobile responsiveness for a captivating user experience.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <img class="img-preview" src="images/sonando.png" alt="Screenshot of educational website"/>
+                    <a href="https://www.sonandosinmiedo.org/">
+                        <h3>Soñando Sin Miedo's Web Developer & Designer</h3>
+                    </a>
+                    <p>Soñando Sin Miedo is a student-led initiative aimed at providing low and no-income Latinx/Latine students
+                        with free academic support. I work as a web developer and designer for this website. I implemented 
+                        interactive testimonies slider, contact page, and responsive design using Next.js and TypeScript, 
+                        CSS, and Framer Motion. I designed wireframe and high-fidelity website prototypes in Figma, 
+                        crafting creative components and website layout to reflect initiative’s goals. I also lead meetings 
+                        amongst developers, streamlining progression of programming and designing.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <img src="images/caretech.png" alt="Screenshot of UCI club CareTech website" class="img-preview"/>
+                    <a href="https://caretechuci.vercel.app/">
+                        <h3>CareTech</h3>
+                    </a>
+                    <p>
+                        CareTech is a newly founded ICS club aimed at created equitable healthcare solutions through
+                        innovative technology. I am currently the Marketing Head of CareTech and have had the opportunity 
+                        to work on amazing projects, such as designing their website and upgrading their logo. I designed
+                        the website solo using Figma. I honed my website designing skills by working on designing a website
+                        with multiple pages, but I plan to work on a redesign once I am no longer taking summer classes
+                        and working!
+                    </p>
+                </div>
+                <div class="about-card">
+                    <img src="images/everskies.jpg" alt="Designs by Julia on Everskies shop" class="img-preview"/>
+                    <h3>Everskies Designer</h3>
+                    <p>
+                        I worked as a game assets designer for the web game and app Everskies, a doll dress up game. I
+                        mainly created sets, which were a collection of clothing assets that were grouped together. I utilized 
+                        Procreate and ibisPaintX on a 340x221 scale canvas in order to create designs. I collaborated and contributed 
+                        to on-site events alongside other designers from around the world to formulate relevant, thematic designs.
+                        I developed a strong knowledge of color theory and strengthened by artistic skills as a self taught artist. Items
+                        I have created and uploaded to the site can be seen in the image.
+                    </p>
+                </div>
             </div>
         </div>
 
