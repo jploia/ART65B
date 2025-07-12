@@ -24,6 +24,20 @@ img {
 .about-card {
     width: 320px;
 }
+
+.port-img {
+    max-width: 380px;
+    object-fit: cover;
+}
+
+.port-img-container {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100vw;
+    gap: 2rem;
+    justify-content: center;
+}
+
 /* p {
     color:brown;
     text-align: center;
